@@ -8,7 +8,6 @@ int main()
     char s[200];//="how are you";
     printf("Enter the String : ");
     scanf("%[^\n]s",s);
-    gets()
     for(i=0;s[i]!='\0';i++)
     {
         if(s[i]==' ' && s[i-1]!=' ')
