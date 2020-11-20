@@ -24,6 +24,7 @@ int main()
     char s[200];
     printf("Enter the String :");
     scanf("%[^\n]s",s);
+    //gets(&s);
     for(i=0;s[i]!='\0';i++)
     {
         if(s[i]>=65 && s[i]<=90)
